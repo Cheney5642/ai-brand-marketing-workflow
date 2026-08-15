@@ -59,7 +59,7 @@ Content Creator
 Structured Marketing Output
 ```
 
-![Coze Workflow V1.0 完整画布](assets/79319dd9-5910-4a56-859e-826a88748be8.png)
+![Coze Workflow V1.0 完整画布](assets/workflow-overview.png)
 
 *图 1：Coze Workflow V1.0 完整流程。画布展示了开始节点、知识库检索、`knowledge_context` 整理代码节点，以及 Brand Strategy、Campaign Planner、Content Creator 和最终输出节点之间的数据流。*
 
@@ -76,7 +76,7 @@ RAG 模块用于为品牌策略节点提供与当前 Brief 相关的事实背景
 - **Context Processing**：通过代码节点统一整理召回结果，输出 `knowledge_context`。
 - **Prompt Injection**：将 `knowledge_context` 作为显式上下文注入 Brand Strategy Prompt，并要求区分品牌事实、行业信息和策略推导。
 
-![RAG 知识库检索结果](assets/eeb0e593-a620-4e75-9a38-d2829c0474cf.png)
+![RAG 知识库检索结果](assets/rag-retrieval-test.png)
 
 *图 2：Dior 女士礼赠场景的知识库检索测试。右侧展示检索 Query 与 Top-K 输出，用于验证品牌定位、产品类别、品牌调性和营销场景等信息能否被召回。*
 
@@ -104,7 +104,7 @@ Demo 以 Dior 女士礼赠系列在中国大陆市场的七夕营销场景作为
 4. 依次生成品牌策略、Campaign 规划与内容方向。
 5. 汇总为结构化营销方案。
 
-![Dior 七夕 Demo 端到端运行结果](assets/b4b90d0e-fcff-4f03-a43b-2ab240342eae.jpg)
+![Dior 七夕 Demo 端到端运行结果](assets/demo-structured-output.jpg)
 
 *图 3：Dior 七夕女士礼赠 Demo 的端到端运行结果。右侧展示结构化输出变量与回答内容，用于检查品牌定位、品牌调性、竞品分析边界和营销方向是否按节点传递。截图中的结果仅为测试输出，不代表 Dior 官方营销方案。*
 
