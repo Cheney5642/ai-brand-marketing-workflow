@@ -1,0 +1,2 @@
+# Local RAG knowledge sources; keep these files on this machine only.
+rag/knowledge_sources/
