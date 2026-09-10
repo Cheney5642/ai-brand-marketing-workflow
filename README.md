@@ -1,6 +1,6 @@
 # AI Brand Marketing Workflow
 
-> **V1.0｜AI 产品经理作品集项目**  
+
 > 基于 Coze Workflow、RAG 与 Prompt Engineering 搭建的端到端品牌营销 AI Workflow。
 
 ## Project Overview
